@@ -1,0 +1,840 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+#bod{
+    width: 100%;
+    background-color: hsl(218, 28%, 13%);
+}
+.top{
+    height: 50px;
+    padding: 30px 30px 0px 30px;
+}
+.logo img{
+    width: 120px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+.top-link{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.content-img1 img{
+    width: 500px;
+    margin-top: 50px;
+}
+.All-files{
+    width: 460px;
+}
+.All-files p{
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.fylo-stores p{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+.fylo-stores{
+    margin-top: 30px;
+    width: 500px;
+}
+.butn button{
+    background-color: hsl(198, 60%, 50%);
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    font-size: 12px;
+}
+.wrap{
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.wrap1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px;
+   
+}
+.wrap1-img{
+    margin: auto;
+}
+.wrap1-head{
+    margin-top: 10px;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+}
+.wrap1-body{
+    text-align: center;
+    width: 250px;
+    margin: auto; 
+}
+.wrap1-head p{
+    font-size: 18px;
+    font-weight: 700 ;
+    color: white;
+    
+    font-family: 'Open Sans', sans-serif;
+
+}
+.wrap1-body p{
+    font-size: 12px;
+    color: white;
+    
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+#productive{
+        display: flex;
+        width: 950px;
+        justify-content: space-between;
+        margin-top: 30px;
+        align-items: center;
+        /* border: 1px solid red; */
+}
+.stay-productive{
+    width: 450px;
+}
+.productive-img img{
+    width: 450px;
+}
+.stay{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    width: 250px;
+}
+.never{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    width: 400px;
+}
+.share-files {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    width: 400px;
+}
+.fylo-link{
+    margin-top: 10px;
+}
+.fylo-link a{
+    color:hsl(198, 60%, 50%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+#card{
+    width: 300px;
+    /* border: 1px solid white; */
+    padding: 10px 10px 10px 10px;
+    background-color: hsl(219, 30%, 18%);
+
+}
+.card p{
+ color: white;
+ font-size: 14px;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+ line-height: 20px;
+}
+.quote {
+margin-right: auto;
+margin-left: 23px;
+margin-top: 30px;
+}
+.quote img{
+    width: 30px;
+}
+.picture img{
+    width: 50px;
+    border-radius: 50px;
+}
+.profile{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 10px;
+}
+.details{
+    margin-left:20px ;
+}
+.name p{
+    font-size:12px ;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.position p{
+    font-size:12px ;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    border-radius: 3px;
+
+}
+#early{
+    
+    margin-top: 50px;
+    width: 650px;
+    /* border: 1px solid white; */
+    padding: 20px 20px;
+    background-color: rgba(29, 38, 50, 1) ;
+    z-index: 4;
+    border-radius: 5px;
+    position: relative;
+    bottom: -70px;
+    box-shadow:1px 1px 7px 1px black;
+}
+.early-access{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 700px;
+    font-family: 'Open Sans', sans-serif;
+}
+.only-takes{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 500px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.formm{
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 580px;
+
+}
+.email input{
+    width: 350px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 0px 15px;
+    border: none;
+
+}
+.buton button{
+    width: 200px;
+    height: 40px;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 11x;
+}
+footer{
+    /* height: 500px; */
+    width: 100%;
+    position: relative;
+    background-color: hsl(216, 53%, 9%);
+    z-index: 1;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+  
+ 
+}
+#footter{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    /* border: 1px solid white; */
+
+}
+.address p{
+    margin-left: 15px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+
+}
+.footer-content{
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-con{
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.foot-img img{
+    margin-bottom: 20px;
+    width: 120px;
+}
+.first{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+.numb{
+    font-size: 12px;
+    margin-left: 10px;
+    color: white;
+}
+.second{
+    display: flex;
+    margin-bottom: 10px;
+}
+.third-foot{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.foot p{
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+
+}
+.forth-foot{
+    margin-top: 15px;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px ){
+    .content-img1 img{
+        width: 350px;
+        margin-top: 50px;
+    }
+    .All-files{
+        width: 450px;
+    }
+    .All-files p{
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .fylo-stores p{
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        line-height: 30px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+    }
+    .fylo-stores{
+        margin-top: 30px;
+        width: 500px;
+    }
+    .wrap{
+        width: 550px;   
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .wrap1-head p{
+        font-size: 18px;
+        font-weight: 700 ;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+    .wrap1-body p{
+        font-size: 15px;
+        color: white;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .wrap1-img{
+        margin: auto;
+    }
+    .wrap1-head{
+        margin-top: 10px;
+        text-align: center;
+        width: 250px;
+        margin: auto;
+    }
+    .wrap1-body{
+        text-align: center;
+        width: 250px;
+        margin: auto; 
+    }
+    #productive{
+        display: flex;
+        width: 700px;
+        justify-content: space-between;
+        margin-top: 70px;
+        align-items: center;
+        /* border: 1px solid red; */
+}
+.stay-productive{
+    width: 450px;
+    
+}
+.productive-img img{
+    width: 300px;
+}
+.stay{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    width: 330px;
+    margin: auto;
+    margin-top: 20px;
+}
+.never{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 330px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.share-files {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 330px;
+    margin: auto;
+    margin-top: 20px;
+}
+.fylo-link{
+    margin-top: 20px;
+   margin-left: 30px;
+   
+}
+.fylo-link a{
+    color:hsl(198, 60%, 50%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+    
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-direction: column;
+
+}
+
+.name p{
+    font-size:15px ;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.position p{
+    font-size:15px ;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.card p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+   }
+   .picture img{
+    width: 80px;
+    border-radius: 50px;
+}
+#card{
+    width: 400px;
+    /* border: 1px solid white; */
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px ) {
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        
+    }
+    .top-link{
+        width: 150px;
+        display: flex;
+        justify-content: space-around;
+    }
+    a{
+        font-size: 12px;
+    }
+    .logo img{
+        width: 90px;
+    }
+    .top{
+        height: 80px;
+        padding: 20px 20px 0px 20px;
+        
+    }
+    .content-img1 img{
+        width: 250px;
+        margin-top: 50px;
+    }
+    .All-files{
+        width: 250px;
+    }
+    .All-files p{
+        font-size: 22px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        line-height: 30px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .fylo-stores p{
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        line-height: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+    }
+    .fylo-stores{
+        margin-top: 30px;
+        width: 300px;
+    }
+    .butn button{
+        background-color: hsl(198, 60%, 50%);
+        border-radius: 40px;
+        width: 300px;
+        height: 50px;
+        margin-top: 30px;
+        border: none;
+        color: white;
+        font-size: 12px;
+    }
+    .wrap{
+        width: 100%;
+        /* height: 1500px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        margin-top: 50px;
+    }
+    .wrap1-head p{
+        font-size: 18px;
+        font-weight: 700 ;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+    .wrap1-body p{
+        font-size: 16px;
+        color: white;
+        
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .wrap1-img{
+        margin: auto;
+        text-align: center;
+    }
+    .wrap1-head{
+        margin-top: 10px;
+        text-align: center;
+        /* width: 250px; */
+        margin: auto;
+    }
+    .wrap1-body{
+        text-align: center;
+        /* width: 250px; */
+        margin: auto; 
+    }
+    .wrap1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid yellow;
+        */
+    }
+    #productive{
+        display: flex;
+        width: 350px;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+        /* border: 1px solid red; */
+}
+.stay-productive{
+    width: 350px;
+    
+}
+.productive-img img{
+    width: 350px;
+}
+.stay{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    width: 330px;
+    margin: auto;
+    margin-top: 20px;
+}
+.never{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 330px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.share-files {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 330px;
+    margin: auto;
+    margin-top: 20px;
+}
+.fylo-link{
+    margin-top: 20px;
+    margin-left: 10px;
+   
+}
+.fylo-link a{
+    color:hsl(198, 60%, 50%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+    
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+#card{
+    width: 300px;
+    /* border: 1px solid white; */
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+}
+.formm{
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+
+}
+.email input{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    /* padding: 0px 15px; */
+    border: none;
+    margin-bottom: 20px;
+
+}
+.buton button{
+    width: 270px;
+    height: 40px;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 11x;
+}
+#early{
+    
+    margin-top: 50px;
+    width: 370px;
+    /* border: 1px solid white; */
+    /* padding: 20px 20px; */
+    background-color: hsl(218, 28%, 13%);
+    z-index: 4;
+    border-radius: 5px;
+}
+.early-access{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 700px;
+    font-family: 'Open Sans', sans-serif;
+}
+.only-takes{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 300px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer{
+    /* height: 500px; */
+    width: 100%;
+    position: relative;
+    top: -70px;
+    background-color: hsl(216, 53%, 9%);
+    z-index: 1;
+    padding-top: 70px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    
+
+   
+  
+ 
+}
+#footter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+}
